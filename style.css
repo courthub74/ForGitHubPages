@@ -22,6 +22,7 @@
     justify-content: center;
     position: fixed;
     gap: 20vw;
+    transition: 0.3s all ease-in;
   }
   * body .container .nav_section .the_navbar .you {
     display: flex;
@@ -59,6 +60,10 @@
   * body .container .nav_section .the_navbar .hamburgermobile #top_hamburger.dissapear {
     opacity: 0;
     transition: 0.5s all ease-in-out;
+  }
+  * body .container .nav_section .the_navbar.dissapear {
+    transition: 0.3s all ease-out;
+    opacity: 0;
   }
   * body .container #home_section_id .home_section_class {
     height: 100vh;

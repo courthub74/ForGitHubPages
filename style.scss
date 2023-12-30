@@ -55,6 +55,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             justify-content: center;
                             position: fixed;
                             gap: 20vw;
+                            transition: .3s all ease-in;
                             .you {
                                 display: flex;
                                 flex-direction: column;
@@ -95,6 +96,10 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                     transition: .5s all ease-in-out;
                                 }
                             }
+                        }
+                        .the_navbar.dissapear {
+                            transition: .3s all ease-out;
+                            opacity: 0;
                         }
                     
                 }
