@@ -1,0 +1,151 @@
+// Fonts
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+// Resume Button Green
+$resumebutton: #507E81;
+// Skills Teal
+$skillsteal: #146166;
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+
+// MOBILE VERSIONS
+
+// PORTRAIT
+@media only screen and (orientation: portrait) {
+    * {
+        margin: 0;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        body {
+            background-color: $darkblue;
+            // background-color: red;
+            .container {
+                display: flex;
+                flex-direction: column;
+                // background-color: red;
+                .nav_section {
+                    // NAV BAR
+                    // background-color: red;
+                        .the_top_nav {
+                            // position: sticky;
+                            // background-color: $darkblue;
+                            // // background-color: red;
+                            // top: 0;
+                            // width: 100%;
+                            // z-index: 98;
+                            // height: 15vh;
+                            // SLIDE IN MENU LOGO HERE
+                        }
+                        .the_navbar {
+                            background-color: $darkblue;
+                            top: 0;
+                            height: 15vh;
+                            z-index: 98;
+                            display: flex;
+                            justify-content: center;
+                            position: fixed;
+                            gap: 20vw;
+                            .you {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin: 3.5vh 0 0 7vw;
+                                // opacity: 0;
+                                transition: .3s all ease-out;
+                                #name {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                                #job_description {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                    
+                }
+                // HOME SECTION
+                #home_section_id {
+                    .home_section_class {
+                        height: 100vh;
+                        background-color: $darkblue;
+                        .home_section_content {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            font-family: 'Inter', sans-serif;
+                            color: white;
+                            height: 100%;
+                        }
+                    }
+                }
+                // ABOUT SECTION
+                #about_section_id {
+                    .about_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        height: 110vh;
+                        background-color: $nextgreen;
+                        .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 8vw;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        .about_section_content {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            font-family: 'Inter', sans-serif;
+                            color: white;
+                            height: 100%;
+                        }
+                    }
+                }
+                // PORTFOLIO SECTION
+                #portfolio_section_id {
+                    .portfolio_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        height: 100vh;
+                        background-color: $darkblue;
+                        .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 8vw;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        .portfolio_section_content {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            font-family: 'Inter', sans-serif;
+                            color: white;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// LANDSCAPE
+
+// TABLET
+
+// DESKTOP

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
+@media only screen and (orientation: portrait) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body {
+    background-color: #080E2F;
+  }
+  * body .container {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .container .nav_section .the_navbar {
+    background-color: #080E2F;
+    top: 0;
+    height: 15vh;
+    z-index: 98;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    gap: 20vw;
+  }
+  * body .container .nav_section .the_navbar .you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.5vh 0 0 7vw;
+    transition: 0.3s all ease-out;
+  }
+  * body .container .nav_section .the_navbar .you #name {
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  * body .container .nav_section .the_navbar .you #job_description {
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  * body .container #home_section_id .home_section_class {
+    height: 100vh;
+    background-color: #080E2F;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    height: 100%;
+  }
+  * body .container #about_section_id .about_section_class {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    background-color: #00313E;
+  }
+  * body .container #about_section_id .about_section_class .section_title {
+    margin: 5vh 0 0 10vw;
+    font-family: "Inter", sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
+    color: white;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    height: 100%;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #080E2F;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .section_title {
+    margin: 5vh 0 0 10vw;
+    font-family: "Inter", sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
+    color: white;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    height: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
