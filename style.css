@@ -17,6 +17,7 @@
     top: 0;
     height: 15vh;
     z-index: 98;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -32,10 +33,32 @@
   * body .container .nav_section .the_navbar .you #name {
     color: white;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    margin: 0 0 1vh 1vw;
   }
   * body .container .nav_section .the_navbar .you #job_description {
     color: white;
     font-family: "Inter", sans-serif;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 3vw;
+    padding: 0.8vh;
+  }
+  * body .container .nav_section .the_navbar .hamburgermobile {
+    background-color: #080E2F;
+    border: none;
+    margin: 0vh 0vw 0 5vw;
+  }
+  * body .container .nav_section .the_navbar .hamburgermobile #top_hamburger {
+    position: relative;
+    width: 11vw;
+    height: 11vw;
+    transition: 1s all ease-in-out;
+  }
+  * body .container .nav_section .the_navbar .hamburgermobile #top_hamburger.dissapear {
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
   }
   * body .container #home_section_id .home_section_class {
     height: 100vh;
