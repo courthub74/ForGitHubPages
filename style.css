@@ -162,11 +162,23 @@
   * body .container #about_section_id .about_section_class .about_section_content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 3vh;
     font-family: "Inter", sans-serif;
     color: white;
     height: 100%;
+    width: 80%;
+    margin: 5vh 0 0 10vw;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content #about_page_logo {
+    width: 30vw;
+    height: 30vw;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .brand_name_about {
+    width: 100%;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .passion_block {
+    width: 100%;
   }
   * body .container #portfolio_section_id .portfolio_section_class {
     display: flex;
