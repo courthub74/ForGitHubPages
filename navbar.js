@@ -19,6 +19,11 @@ window.addEventListener('scroll', function () {
             navbar.classList.add('dissapear');
         } else {
             navbar.classList.remove('dissapear');
+            job_description.classList.add('appear');
+        }
+        // Make the you dissapear at top of screen
+        if (currentScroll === 0) {
+            job_description.classList.remove('appear');
         }
          // set the current scroll to the last scroll
     lastScroll = currentScroll;

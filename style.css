@@ -29,6 +29,7 @@
     flex-direction: column;
     align-items: center;
     margin: 3.5vh 0 0 7vw;
+    opacity: 0;
     transition: 0.3s all ease-out;
   }
   * body .container .nav_section .the_navbar .you #name {
@@ -45,6 +46,10 @@
     border-radius: 5px;
     font-size: 3vw;
     padding: 0.8vh;
+  }
+  * body .container .nav_section .the_navbar .you.appear {
+    opacity: 1;
+    transition: 0.3s all ease-in;
   }
   * body .container .nav_section .the_navbar .hamburgermobile {
     background-color: #080E2F;
