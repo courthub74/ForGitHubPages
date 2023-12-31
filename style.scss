@@ -60,7 +60,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
-                                margin: 3.5vh 0 0 7vw;
+                                margin: 2.5vh 0 0 2vw;
                                 opacity: 0;
                                 transition: .3s all ease-out;
                                 #name {
@@ -117,9 +117,76 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
+                            gap: 8vh;
                             font-family: 'Inter', sans-serif;
                             color: white;
                             height: 100%;
+                            margin: 3vh 0 0 0;
+                            .head_shot {
+                                #headshot {
+                                    width: 50vw;
+                                    height: 50vw;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .name_and_description {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1.5vh;
+                                .home_name {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    font-size: 8vw;
+                                }
+                                .home_description {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-family: 'Inter', sans-serif;
+                                    // font-weight: bold;
+                                    font-size: 5vw;
+                                    border: 1px solid white;
+                                    border-radius: 5px;
+                                    background-color: white;
+                                    width: 60vw;
+                                    height: 3vw;
+                                    padding: 4vw;
+                                    color: $darkblue;
+                                }
+                            }
+                            .home_slogan {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 4vw;
+                                color: white;
+                            }
+                            .learn_more {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                // font-weight: bold;
+                                border: 1px solid $portfolios;
+                                border-radius: 5px;
+                                background-color: $portfolios;
+                                width: 60vw;
+                                height: 3vw;
+                                padding: 4vw;
+                                a {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 5vw;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                }
+                            }
                         }
                     }
                 }

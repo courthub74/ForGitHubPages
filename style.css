@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 3.5vh 0 0 7vw;
+    margin: 2.5vh 0 0 2vw;
     opacity: 0;
     transition: 0.3s all ease-out;
   }
@@ -79,9 +79,72 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 8vh;
     font-family: "Inter", sans-serif;
     color: white;
     height: 100%;
+    margin: 3vh 0 0 0;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .head_shot #headshot {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .name_and_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .name_and_description .home_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 8vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .name_and_description .home_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    width: 60vw;
+    height: 3vw;
+    padding: 4vw;
+    color: #080E2F;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .home_slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 4vw;
+    color: white;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .learn_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
+    width: 60vw;
+    height: 3vw;
+    padding: 4vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+    text-decoration: none;
   }
   * body .container #about_section_id .about_section_class {
     display: flex;
