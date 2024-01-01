@@ -149,7 +149,7 @@
   * body .container #about_section_id .about_section_class {
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 120vh;
     background-color: #00313E;
   }
   * body .container #about_section_id .about_section_class .section_title {
@@ -178,7 +178,7 @@
     width: 100%;
   }
   * body .container #about_section_id .about_section_class .about_section_content .passion_block {
-    width: 75%;
+    width: 85%;
     border-bottom: 3px solid #146166;
     margin: 0 20vw 0 0;
     padding: 0 0 1vh 0;
