@@ -60,7 +60,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
-                                margin: 1.5vh 0 0 1vw;
+                                margin: 1vh 0 0 1vw;
                                 opacity: 0;
                                 transition: .3s all ease-out;
                                 #name {
@@ -195,7 +195,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                     .about_section_class {
                         display: flex;
                         flex-direction: column;
-                        height: 120vh;
+                        height: 105vh;
                         background-color: $nextgreen;
                         .section_title {
                             margin: 5vh 0 0 10vw;
@@ -215,6 +215,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             height: 100%;
                             width: 80%;
                             margin: 5vh 0 0 10vw;
+                            // text-align: center;
                             #about_page_logo {
                                 width: 30vw;
                                 height: 30vw;
@@ -223,10 +224,16 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 width: 100%;
                             }
                             .passion_block {
-                                width: 85%;
-                                border-bottom: 3px solid $skillsteal;
-                                margin: 0 20vw 0 0;
-                                padding: 0 0 1vh 0;
+                                text-align: center;
+                                width: 90%;
+                                border: 3px solid $skillsteal;
+                                border-radius: 5px;
+                                // background-color: $skillsteal;
+                                // background-color: $darkblue;
+                                margin: 0 3vw 0 0;
+                                // padding: 0 0 1vh 0;
+                                padding: 1vh;
+                                font-weight: bold;
                             }
                             .resume_button_div {
                                 display: flex;
