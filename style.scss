@@ -230,10 +230,14 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 border-radius: 5px;
                                 // background-color: $skillsteal;
                                 // background-color: $darkblue;
-                                margin: 0 3vw 0 0;
-                                // padding: 0 0 1vh 0;
                                 padding: 1vh;
                                 font-weight: bold;
+                            }
+                            .passion_things {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2vh;
+                                margin: 2vh 0 0 0;
                             }
                             .resume_button_div {
                                 display: flex;

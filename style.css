@@ -182,9 +182,14 @@
     width: 90%;
     border: 3px solid #146166;
     border-radius: 5px;
-    margin: 0 3vw 0 0;
     padding: 1vh;
     font-weight: bold;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .passion_things {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 2vh 0 0 0;
   }
   * body .container #about_section_id .about_section_class .about_section_content .resume_button_div {
     display: flex;
