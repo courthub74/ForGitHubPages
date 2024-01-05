@@ -195,7 +195,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                     .about_section_class {
                         display: flex;
                         flex-direction: column;
-                        height: 115vh;
+                        height: 120vh;
                         background-color: $nextgreen;
                         .section_title {
                             margin: 5vh 0 0 10vw;
@@ -230,7 +230,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 border-radius: 5px;
                                 // background-color: $skillsteal;
                                 // background-color: $darkblue;
-                                padding: 1vh;
+                                padding: 1vh 3vw;
                                 font-weight: bold;
                             }
                             .passion_things {
@@ -314,6 +314,200 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                         }
                                         #workflow_app {
                                             width: 64vw;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // SKILLS SECTION
+                #skills_section_id {
+                    .skills_section_class {
+                        height: 100vh;
+                        width: 100vw;
+                        background-color: $nextgreen;
+                        .skills_section_content {
+                            color: white;
+                            margin: 0 0 0 5vw;
+                            padding: 5vh 0 0 2vw;
+                            width: 70%;
+                            .skills_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 8vw;
+                                font-weight: bold;
+                            }
+                            // Skills Circles Section
+                            .skills_circles_section {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                // background-color: yellow;
+                                .skills_circles_one {
+                                    display: flex;
+                                    // flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 4vh 0 0 6vh;
+                                    gap: 3vw;
+                                    .skill_circle {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 2vh 0 1vh 0;
+                                        .skill_back {
+                                            width: 25vw;
+                                            height: 25vw;
+                                            border: 3px solid $darkblue;
+                                            background-color: $nextgreen;
+                                            box-shadow: 2px 2px $boxshadowcircles;
+                                            border-radius: 50%;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            .skill_front {
+                                                width: 23vw;
+                                                height: 23vw;
+                                                border: none;
+                                                background-color: $darkblue;
+                                                // box-shadow: 2px 2px $boxshadowcircles;
+                                                border-radius: 50%;
+                                                position: absolute;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                .shield {
+                                                    width: 12vw;
+                                                    height: 12vw;
+                                                }
+                                                // HTML
+                                                #html {
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #html.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #html_description {
+                                                    opacity: 0;
+                                                }
+                                                #html_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // CSS
+                                                #css {
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #css.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #css_description {
+                                                    opacity: 0;
+                                                }
+                                                #css_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // SASS
+                                                #sass {
+                                                    width: 13vw;
+                                                    height: 13vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: -.5vh 0 0 1.5vw;
+                                                }
+                                                #sass.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #sass_description {
+                                                    opacity: 0;
+                                                }
+                                                #sass_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // JS
+                                                #javascript {
+                                                    width: 15vw;
+                                                    height: 15vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: 0 0 0 .5vw;
+                                                }
+                                                #javascript.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #javascript_description {
+                                                    opacity: 0;
+                                                }
+                                                #javascript_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // PYTHON
+                                                #python {
+                                                    width: 12vw;
+                                                    height: 12vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: -.5vh 0 0 0;
+                                                }
+                                                #python.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #python_description {
+                                                    opacity: 0;
+                                                }
+                                                // REACT
+                                                #react {
+                                                    width: 14vw;
+                                                    height: 14vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #react.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #react_description {
+                                                    opacity: 0;
+                                                }
+                                                #react_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // FIGMA
+                                                #figma {
+                                                    width: 14vw;
+                                                    height: 14vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #figma.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #figma_description {
+                                                    opacity: 0;
+                                                }
+                                                #figma_description.show {
+                                                    transition: .5s all ease-in; 
+                                                }
+                                                // FIREBASE
+                                                #firebase {
+                                                    width: 14vw;
+                                                    height: 14vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #firebase.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #firebase_description {
+                                                    opacity: 0;
+                                                }
+                                                #firebase_description.show {
+                                                    transition: .5s all ease-in; 
+                                                }
+                                            }
                                         }
                                     }
                                 }
