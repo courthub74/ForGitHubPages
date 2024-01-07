@@ -446,6 +446,13 @@
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #firebase_description.show {
     transition: 0.5s all ease-in;
   }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #mongo {
+    width: 6vw;
+    height: 12vw;
+    transition: 0.7s all ease-in;
+    position: absolute;
+    margin: 0vh 0 0 0;
+  }
 }
 @media only screen and (orientation: landscape) {
   * {
