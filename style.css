@@ -230,7 +230,7 @@
     height: 100%;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares {
-    margin: -10vh 0vw 0 0;
+    margin: -10vh 0vw 0 -5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,7 +240,7 @@
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
     background-color: #36395D;
     border: none;
-    width: 80vw;
+    width: 75vw;
     height: 13vh;
     border-radius: 5px;
     display: flex;
@@ -432,8 +432,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #firebase {
-    width: 14vw;
-    height: 14vw;
+    width: 10w;
+    height: 10w;
     transition: 0.7s all ease-in;
     position: absolute;
   }
@@ -445,5 +445,18 @@
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #firebase_description.show {
     transition: 0.5s all ease-in;
+  }
+}
+@media only screen and (orientation: landscape) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body {
+    background-color: #080E2F;
+  }
+  * body .container {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
