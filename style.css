@@ -528,7 +528,7 @@
   * body .container .nav_section .the_navbar {
     background-color: #080E2F;
     top: 0;
-    height: 11vh;
+    height: 25vh;
     z-index: 98;
     width: 100%;
     display: flex;
@@ -541,7 +541,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1vh 0 0 1vw;
+    margin: 3vh 0 0 0vw;
     opacity: 0;
     transition: 0.3s all ease-out;
   }
@@ -549,7 +549,7 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 3vw;
     margin: 0 0 1vh 1vw;
   }
   * body .container .nav_section .the_navbar .you #job_description {
@@ -557,7 +557,7 @@
     font-family: "Inter", sans-serif;
     border: 1px solid white;
     border-radius: 5px;
-    font-size: 3vw;
+    font-size: 2vw;
     padding: 0.8vh;
   }
   * body .container .nav_section .the_navbar .you.appear {
@@ -567,12 +567,12 @@
   * body .container .nav_section .the_navbar .hamburgermobile {
     background-color: #080E2F;
     border: none;
-    margin: 0.5vh 0vw 0 3vw;
+    margin: 0.5vh 0vw 0 25vw;
   }
   * body .container .nav_section .the_navbar .hamburgermobile #top_hamburger {
     position: relative;
-    width: 11vw;
-    height: 11vw;
+    width: 7vw;
+    height: 7vw;
     transition: 1s all ease-in-out;
   }
   * body .container .nav_section .the_navbar .hamburgermobile #top_hamburger.dissapear {
