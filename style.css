@@ -584,7 +584,7 @@
     opacity: 0;
   }
   * body .container #home_section_id .home_section_class {
-    height: 100vh;
+    height: 200vh;
     background-color: #080E2F;
   }
   * body .container #home_section_id .home_section_class .home_section_content {
@@ -596,11 +596,11 @@
     font-family: "Inter", sans-serif;
     color: white;
     height: 100%;
-    margin: 3vh 0 0 0;
+    margin: 10vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .head_shot #headshot {
-    width: 50vw;
-    height: 50vw;
+    width: 25vw;
+    height: 25vw;
     border-radius: 50%;
   }
   * body .container #home_section_id .home_section_class .home_section_content .name_and_description {
@@ -616,7 +616,7 @@
     align-items: center;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 4vw;
   }
   * body .container #home_section_id .home_section_class .home_section_content .name_and_description .home_description {
     display: flex;
@@ -627,9 +627,10 @@
     border: 1px solid white;
     border-radius: 5px;
     background-color: white;
-    width: 60vw;
-    height: 3vw;
+    width: 40vw;
+    height: 0.3vw;
     padding: 4vw;
+    font-size: 3vw;
     color: #080E2F;
   }
   * body .container #home_section_id .home_section_class .home_section_content .home_slogan {
@@ -638,7 +639,7 @@
     justify-content: center;
     align-items: center;
     font-family: "Inter", sans-serif;
-    font-size: 4vw;
+    font-size: 2vw;
     color: white;
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more {
@@ -648,14 +649,14 @@
     border: 1px solid #36395D;
     border-radius: 5px;
     background-color: #36395D;
-    width: 60vw;
-    height: 3vw;
+    width: 40vw;
+    height: 0.5vw;
     padding: 4vw;
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 5vw;
+    font-size: 2vw;
     font-weight: bold;
     text-decoration: none;
   }

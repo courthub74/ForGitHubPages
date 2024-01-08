@@ -667,7 +667,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                 // HOME SECTION
                 #home_section_id {
                     .home_section_class {
-                        height: 100vh;
+                        height: 200vh;
                         background-color: $darkblue;
                         .home_section_content {
                             display: flex;
@@ -678,11 +678,11 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             font-family: 'Inter', sans-serif;
                             color: white;
                             height: 100%;
-                            margin: 3vh 0 0 0;
+                            margin: 10vh 0 0 0;
                             .head_shot {
                                 #headshot {
-                                    width: 50vw;
-                                    height: 50vw;
+                                    width: 25vw;
+                                    height: 25vw;
                                     border-radius: 50%;
                                 }
                             }
@@ -698,7 +698,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                     align-items: center;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
-                                    font-size: 8vw;
+                                    font-size: 4vw;
                                 }
                                 .home_description {
                                     display: flex;
@@ -710,9 +710,10 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                     border: 1px solid white;
                                     border-radius: 5px;
                                     background-color: white;
-                                    width: 60vw;
-                                    height: 3vw;
+                                    width: 40vw;
+                                    height: .3vw;
                                     padding: 4vw;
+                                    font-size: 3vw;
                                     color: $darkblue;
                                 }
                             }
@@ -722,7 +723,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 justify-content: center;
                                 align-items: center;
                                 font-family: 'Inter', sans-serif;
-                                font-size: 4vw;
+                                font-size: 2vw;
                                 color: white;
                             }
                             .learn_more {
@@ -733,13 +734,13 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 border: 1px solid $portfolios;
                                 border-radius: 5px;
                                 background-color: $portfolios;
-                                width: 60vw;
-                                height: 3vw;
+                                width: 40vw;
+                                height: .5vw;
                                 padding: 4vw;
                                 a {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
-                                    font-size: 5vw;
+                                    font-size: 2vw;
                                     font-weight: bold;
                                     text-decoration: none;
                                 }
