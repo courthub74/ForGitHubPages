@@ -362,6 +362,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                             height: 25vw;
                                             border: 3px solid $darkblue;
                                             background-color: $nextgreen;
+                                            background-color: $skillsteal;
                                             box-shadow: 2px 2px $boxshadowcircles;
                                             border-radius: 50%;
                                             display: flex;
@@ -372,6 +373,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                                 height: 23vw;
                                                 border: none;
                                                 background-color: $darkblue;
+                                                // background-color: $skillsteal;
                                                 // box-shadow: 2px 2px $boxshadowcircles;
                                                 border-radius: 50%;
                                                 position: absolute;
@@ -514,6 +516,66 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                                     transition: .7s all ease-in;
                                                     position: absolute;
                                                     margin: 0vh 0 0 0;
+                                                }
+                                                #mongo.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #mongo_description {
+                                                    opacity: 0;
+                                                }
+                                                #mongo_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // DJANGO
+                                                #django {
+                                                    width: 12vw;
+                                                    height: 12vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: 0vh 1vw 0 0; 
+                                                }
+                                                #django.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #django_description {
+                                                    opacity: 0;
+                                                }
+                                                #django_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // AWS
+                                                #aws {
+                                                    width: 13vw;
+                                                    height: 13vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: 0vh 1vw 0 0;  
+                                                }
+                                                #aws.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #aws_description {
+                                                    opacity: 0;
+                                                }
+                                                #aws_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // HEROKU
+                                                #heroku {
+                                                    width: 12vw;
+                                                    height: 12vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: -.5vhvh 0vw 0 0;  
+                                                }
+                                                #heroku.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #heroku_description {
+                                                    opacity: 0;
+                                                }
+                                                #heroku_description.show {
+                                                    transition: .5s all ease-in;
                                                 }
                                             }
                                         }
