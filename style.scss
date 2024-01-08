@@ -599,7 +599,222 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
         body {
             background-color: $darkblue;
             .container {
-                display: none;
+                // display: none;
+                display: flex;
+                flex-direction: column;
+                .nav_section {
+                    .the_navbar {
+                        background-color: $darkblue;
+                        top: 0;
+                        height: 11vh;
+                        z-index: 98;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        position: fixed;
+                        gap: 20vw;
+                        transition: .3s all ease-in;
+                        .you {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin: 1vh 0 0 1vw;
+                            opacity: 0;
+                            transition: .3s all ease-out;
+                            #name {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: 5vw;
+                                margin: 0 0 1vh 1vw;
+                            }
+                            #job_description {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                border: 1px solid white;
+                                border-radius: 5px;
+                                font-size: 3vw;
+                                padding: .8vh;
+                            }
+                        }
+                        .you.appear {
+                            opacity: 1;
+                            transition: .3s all ease-in;
+                        }
+                        .hamburgermobile {
+                            // Burger Button
+                            background-color: $darkblue;
+                            border: none;
+                            margin: .5vh 0vw 0 3vw;
+                            #top_hamburger {
+                                position: relative;
+                                width: 11vw;
+                                height: 11vw;
+                                transition: 1s all ease-in-out;
+                            }
+                            // make Menu Burger dissapear (when clicked)
+                            #top_hamburger.dissapear {
+                                opacity: 0;
+                                transition: .5s all ease-in-out;
+                            }
+                        }
+                    }
+                    .the_navbar.dissapear {
+                        transition: .3s all ease-out;
+                        opacity: 0;
+                    }
+                }
+                // HOME SECTION
+                #home_section_id {
+                    .home_section_class {
+                        height: 100vh;
+                        background-color: $darkblue;
+                        .home_section_content {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 8vh;
+                            font-family: 'Inter', sans-serif;
+                            color: white;
+                            height: 100%;
+                            margin: 3vh 0 0 0;
+                            .head_shot {
+                                #headshot {
+                                    width: 50vw;
+                                    height: 50vw;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .name_and_description {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1.5vh;
+                                .home_name {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    font-size: 8vw;
+                                }
+                                .home_description {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-family: 'Inter', sans-serif;
+                                    // font-weight: bold;
+                                    font-size: 5vw;
+                                    border: 1px solid white;
+                                    border-radius: 5px;
+                                    background-color: white;
+                                    width: 60vw;
+                                    height: 3vw;
+                                    padding: 4vw;
+                                    color: $darkblue;
+                                }
+                            }
+                            .home_slogan {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 4vw;
+                                color: white;
+                            }
+                            .learn_more {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                // font-weight: bold;
+                                border: 1px solid $portfolios;
+                                border-radius: 5px;
+                                background-color: $portfolios;
+                                width: 60vw;
+                                height: 3vw;
+                                padding: 4vw;
+                                a {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 5vw;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                // ABOUT SECTION
+                #about_section_id {
+                    .about_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        height: 120vh;
+                        background-color: $nextgreen;
+                        .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 8vw;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        .about_section_content {
+                            display: flex;
+                            flex-direction: column;
+                            // justify-content: center;
+                            align-items: center;
+                            gap: 2vh;
+                            font-family: 'Inter', sans-serif;
+                            color: white;
+                            height: 100%;
+                            width: 80%;
+                            margin: 5vh 0 0 10vw;
+                            // text-align: center;
+                            #about_page_logo {
+                                width: 30vw;
+                                height: 30vw;
+                            }
+                            .brand_name_about {
+                                width: 100%;
+                            }
+                            .passion_block {
+                                text-align: center;
+                                width: 90%;
+                                border: 3px solid $skillsteal;
+                                border-radius: 5px;
+                                // background-color: $skillsteal;
+                                // background-color: $darkblue;
+                                padding: 1vh 3vw;
+                                font-weight: bold;
+                            }
+                            .passion_things {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2vh;
+                                margin: 2vh 0 0 0;
+                            }
+                            .resume_button_div {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: $skillsteal;
+                                width: 63vw;
+                                height: 3vw;
+                                padding: 4vw 4vh;
+                                margin: 5vh 0 0 0;
+                                border-radius: 5px;
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
