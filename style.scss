@@ -678,11 +678,11 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             font-family: 'Inter', sans-serif;
                             color: white;
                             height: 100%;
-                            margin: 10vh 0 0 0;
+                            margin: 2vh 0 0 0;
                             .head_shot {
                                 #headshot {
-                                    width: 25vw;
-                                    height: 25vw;
+                                    width: 30vw;
+                                    height: 30vw;
                                     border-radius: 50%;
                                 }
                             }
@@ -691,14 +691,14 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1.5vh;
+                                gap: 4vh;
                                 .home_name {
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
-                                    font-size: 4vw;
+                                    font-size: 6vw;
                                 }
                                 .home_description {
                                     display: flex;
@@ -711,8 +711,8 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                     border-radius: 5px;
                                     background-color: white;
                                     width: 40vw;
-                                    height: .3vw;
-                                    padding: 4vw;
+                                    // height: 4vw;
+                                    padding: 2vw;
                                     font-size: 3vw;
                                     color: $darkblue;
                                 }
@@ -735,8 +735,8 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 border-radius: 5px;
                                 background-color: $portfolios;
                                 width: 40vw;
-                                height: .5vw;
-                                padding: 4vw;
+                                // height: .5vw;
+                                padding: 2.5vw;
                                 a {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
