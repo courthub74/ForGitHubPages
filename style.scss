@@ -678,7 +678,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             font-family: 'Inter', sans-serif;
                             color: white;
                             height: 100%;
-                            margin: 2vh 0 0 0;
+                            margin: 5vh 0 0 0;
                             .head_shot {
                                 #headshot {
                                     width: 30vw;
@@ -715,6 +715,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                     padding: 2vw;
                                     font-size: 3vw;
                                     color: $darkblue;
+                                    margin: 0 0 0 0;
                                 }
                             }
                             .home_slogan {
@@ -723,8 +724,9 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 justify-content: center;
                                 align-items: center;
                                 font-family: 'Inter', sans-serif;
-                                font-size: 2vw;
+                                font-size: 3vw;
                                 color: white;
+                                margin: 2vh 0 0 0;
                             }
                             .learn_more {
                                 display: flex;
@@ -736,7 +738,8 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 background-color: $portfolios;
                                 width: 40vw;
                                 // height: .5vw;
-                                padding: 2.5vw;
+                                padding: 2vw;
+                                margin: 2vh 0 0 0;
                                 a {
                                     color: white;
                                     font-family: 'Inter', sans-serif;

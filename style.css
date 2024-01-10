@@ -596,7 +596,7 @@
     font-family: "Inter", sans-serif;
     color: white;
     height: 100%;
-    margin: 2vh 0 0 0;
+    margin: 5vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .head_shot #headshot {
     width: 30vw;
@@ -631,6 +631,7 @@
     padding: 2vw;
     font-size: 3vw;
     color: #080E2F;
+    margin: 0 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .home_slogan {
     display: flex;
@@ -638,8 +639,9 @@
     justify-content: center;
     align-items: center;
     font-family: "Inter", sans-serif;
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
+    margin: 2vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more {
     display: flex;
@@ -649,7 +651,8 @@
     border-radius: 5px;
     background-color: #36395D;
     width: 40vw;
-    padding: 2.5vw;
+    padding: 2vw;
+    margin: 2vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
     color: white;
