@@ -664,7 +664,7 @@
   * body .container #about_section_id .about_section_class {
     display: flex;
     flex-direction: column;
-    height: 120vh;
+    height: 200vh;
     background-color: #00313E;
   }
   * body .container #about_section_id .about_section_class .section_title {
