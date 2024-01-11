@@ -756,12 +756,12 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                     .about_section_class {
                         display: flex;
                         flex-direction: column;
-                        height: 200vh;
+                        height: 250vh;
                         background-color: $nextgreen;
                         .section_title {
                             margin: 5vh 0 0 10vw;
                             font-family: 'Inter', sans-serif;
-                            font-size: 8vw;
+                            font-size: 6vw;
                             font-weight: bold;
                             color: white;
                         }
@@ -776,12 +776,15 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             height: 100%;
                             width: 80%;
                             margin: 5vh 0 0 10vw;
+                            font-size: 3vw;
                             // text-align: center;
                             #about_page_logo {
-                                width: 30vw;
-                                height: 30vw;
+                                margin-top: 10vh;
+                                width: 20vw;
+                                height: 20vw;
                             }
                             .brand_name_about {
+                                margin-top: 10vh;
                                 width: 100%;
                             }
                             .passion_block {
@@ -805,15 +808,16 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $skillsteal;
-                                width: 63vw;
-                                height: 3vw;
-                                padding: 4vw 4vh;
+                                width: 40vw;
+                                // height: 3vw;
+                                padding: 2vw;
                                 margin: 5vh 0 0 0;
                                 border-radius: 5px;
                                 a {
                                     color: white;
                                     text-decoration: none;
                                     font-weight: bold;
+                                    font-size: 2vw;
                                 }
                             }
                         }

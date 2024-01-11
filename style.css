@@ -664,13 +664,13 @@
   * body .container #about_section_id .about_section_class {
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    height: 250vh;
     background-color: #00313E;
   }
   * body .container #about_section_id .about_section_class .section_title {
     margin: 5vh 0 0 10vw;
     font-family: "Inter", sans-serif;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: bold;
     color: white;
   }
@@ -684,12 +684,15 @@
     height: 100%;
     width: 80%;
     margin: 5vh 0 0 10vw;
+    font-size: 3vw;
   }
   * body .container #about_section_id .about_section_class .about_section_content #about_page_logo {
-    width: 30vw;
-    height: 30vw;
+    margin-top: 10vh;
+    width: 20vw;
+    height: 20vw;
   }
   * body .container #about_section_id .about_section_class .about_section_content .brand_name_about {
+    margin-top: 10vh;
     width: 100%;
   }
   * body .container #about_section_id .about_section_class .about_section_content .passion_block {
@@ -711,9 +714,8 @@
     justify-content: center;
     align-items: center;
     background-color: #146166;
-    width: 63vw;
-    height: 3vw;
-    padding: 4vw 4vh;
+    width: 40vw;
+    padding: 2vw;
     margin: 5vh 0 0 0;
     border-radius: 5px;
   }
@@ -721,5 +723,6 @@
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 2vw;
   }
 }/*# sourceMappingURL=style.css.map */
