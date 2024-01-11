@@ -684,7 +684,7 @@
     height: 100%;
     width: 80%;
     margin: 5vh 0 0 10vw;
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   * body .container #about_section_id .about_section_class .about_section_content #about_page_logo {
     margin-top: 10vh;
@@ -725,5 +725,59 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 2vw;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    background-color: #080E2F;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .section_title {
+    margin: 5vh 0 0 10vw;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    height: 100%;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15vh;
+    margin: -20vh 0vw 0 0vw;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
+    background-color: #36395D;
+    border: none;
+    width: 80vw;
+    height: 22vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
+    margin: 0 0 0 5vw;
+  }
+  * body .container #skills_section_id .skills_section_class {
+    height: 100vh;
+    width: 100vw;
+    background-color: #00313E;
   }
 }/*# sourceMappingURL=style.css.map */
