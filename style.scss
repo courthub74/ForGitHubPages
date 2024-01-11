@@ -678,7 +678,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             font-family: 'Inter', sans-serif;
                             color: white;
                             height: 100%;
-                            margin: 5vh 0 0 0;
+                            margin: 8vh 0 0 0;
                             .head_shot {
                                 #headshot {
                                     width: 30vw;
@@ -756,7 +756,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                     .about_section_class {
                         display: flex;
                         flex-direction: column;
-                        height: 250vh;
+                        height: 270vh;
                         background-color: $nextgreen;
                         .section_title {
                             margin: 5vh 0 0 10vw;
@@ -796,12 +796,13 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 // background-color: $darkblue;
                                 padding: 1vh 3vw;
                                 font-weight: bold;
+                                margin-top: 10vh;
                             }
                             .passion_things {
                                 display: flex;
                                 flex-direction: column;
-                                gap: 2vh;
-                                margin: 2vh 0 0 0;
+                                gap: 5vh;
+                                margin: 10vh 0 0 0;
                             }
                             .resume_button_div {
                                 display: flex;
@@ -811,7 +812,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 width: 40vw;
                                 // height: 3vw;
                                 padding: 2vw;
-                                margin: 5vh 0 0 0;
+                                margin: 10vh 0 0 0;
                                 border-radius: 5px;
                                 a {
                                     color: white;

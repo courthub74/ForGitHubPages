@@ -596,7 +596,7 @@
     font-family: "Inter", sans-serif;
     color: white;
     height: 100%;
-    margin: 5vh 0 0 0;
+    margin: 8vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .head_shot #headshot {
     width: 30vw;
@@ -664,7 +664,7 @@
   * body .container #about_section_id .about_section_class {
     display: flex;
     flex-direction: column;
-    height: 250vh;
+    height: 270vh;
     background-color: #00313E;
   }
   * body .container #about_section_id .about_section_class .section_title {
@@ -702,12 +702,13 @@
     border-radius: 5px;
     padding: 1vh 3vw;
     font-weight: bold;
+    margin-top: 10vh;
   }
   * body .container #about_section_id .about_section_class .about_section_content .passion_things {
     display: flex;
     flex-direction: column;
-    gap: 2vh;
-    margin: 2vh 0 0 0;
+    gap: 5vh;
+    margin: 10vh 0 0 0;
   }
   * body .container #about_section_id .about_section_class .about_section_content .resume_button_div {
     display: flex;
@@ -716,7 +717,7 @@
     background-color: #146166;
     width: 40vw;
     padding: 2vw;
-    margin: 5vh 0 0 0;
+    margin: 10vh 0 0 0;
     border-radius: 5px;
   }
   * body .container #about_section_id .about_section_class .about_section_content .resume_button_div a {
