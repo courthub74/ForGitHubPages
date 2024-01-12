@@ -511,6 +511,17 @@
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #heroku_description.show {
     transition: 0.5s all ease-in;
   }
+  * body .container #experience_section_id .experience_section_class {
+    height: 100vh;
+    background-color: #080E2F;
+  }
+  * body .container #experience_section_id .experience_section_class .section_title {
+    margin: 5vh 0 0 10vw;
+    font-family: "Inter", sans-serif;
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+  }
 }
 @media only screen and (orientation: landscape) {
   * {
@@ -1028,5 +1039,16 @@
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #heroku_description.show {
     transition: 0.5s all ease-in;
+  }
+  * body .container #experience_section_id .experience_section_class {
+    height: 200vh;
+    background-color: #080E2F;
+  }
+  * body .container #experience_section_id .experience_section_class .section_title {
+    margin: 5vh 0 0 10vw;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
   }
 }/*# sourceMappingURL=style.css.map */

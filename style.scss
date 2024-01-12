@@ -585,6 +585,20 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                         }
                     }
                 }
+                // EXPERIENCE SECTION
+                #experience_section_id {
+                    .experience_section_class {
+                        height: 100vh;
+                        background-color: $darkblue;
+                        .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 10vw;
+                            font-weight: bold;
+                            color: white;
+                        }
+                    }
+                }
             }
         }
     }
@@ -1156,6 +1170,20 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+                // EXPERIENCE SECTION
+                #experience_section_id {
+                    .experience_section_class {
+                        height: 200vh;
+                        background-color: $darkblue;
+                        .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 6vw;
+                            font-weight: bold;
+                            color: white;
                         }
                     }
                 }
