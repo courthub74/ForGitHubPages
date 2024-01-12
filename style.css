@@ -155,7 +155,7 @@
   * body .container #about_section_id .about_section_class .section_title {
     margin: 5vh 0 0 10vw;
     font-family: "Inter", sans-serif;
-    font-size: 8vw;
+    font-size: 10vw;
     font-weight: bold;
     color: white;
   }
@@ -216,7 +216,7 @@
   * body .container #portfolio_section_id .portfolio_section_class .section_title {
     margin: 5vh 0 0 10vw;
     font-family: "Inter", sans-serif;
-    font-size: 8vw;
+    font-size: 10vw;
     font-weight: bold;
     color: white;
   }
@@ -280,7 +280,7 @@
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_title {
     font-family: "Inter", sans-serif;
-    font-size: 8vw;
+    font-size: 10vw;
     font-weight: bold;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section {
@@ -778,7 +778,7 @@
   * body .container #skills_section_id .skills_section_class {
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    height: 100vh;
     width: 100vw;
     background-color: #00313E;
   }
@@ -800,19 +800,19 @@
     align-items: center;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_one_landscape {
-    margin: 0 12vw 0 0;
+    margin: 3vh -15vw 0 0;
     display: flex;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_two_landscape {
-    margin: 0 12vw 0 0;
+    margin: 0 -15vw 0 0;
     display: flex;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4vh 0 0 6vh;
-    gap: 3vw;
+    margin: 2vh 0 0 5vh;
+    gap: 2vw;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle {
     display: flex;
@@ -822,8 +822,8 @@
     margin: 2vh 0 1vh 0;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back {
-    width: 15vw;
-    height: 15vw;
+    width: 11vw;
+    height: 11vw;
     border: 3px solid #080E2F;
     background-color: #00313E;
     background-color: #146166;
@@ -834,8 +834,8 @@
     align-items: center;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front {
-    width: 13vw;
-    height: 13vw;
+    width: 10vw;
+    height: 10vw;
     border: none;
     background-color: #080E2F;
     border-radius: 50%;
@@ -846,8 +846,8 @@
     align-items: center;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front .shield {
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #html {
     transition: 0.7s all ease-in;
@@ -876,8 +876,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #sass {
-    width: 13vw;
-    height: 13vw;
+    width: 6vw;
+    height: 6vw;
     transition: 0.7s all ease-in;
     position: absolute;
     margin: -0.5vh 0 0 1.5vw;
@@ -892,8 +892,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #javascript {
-    width: 15vw;
-    height: 15vw;
+    width: 7vw;
+    height: 7vw;
     transition: 0.7s all ease-in;
     position: absolute;
     margin: 0 0 0 0.5vw;
@@ -908,8 +908,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #python {
-    width: 12vw;
-    height: 12vw;
+    width: 6vw;
+    height: 6vw;
     transition: 0.7s all ease-in;
     position: absolute;
     margin: -0.5vh 0 0 0;
@@ -921,8 +921,8 @@
     opacity: 0;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #react {
-    width: 14vw;
-    height: 14vw;
+    width: 7vw;
+    height: 7vw;
     transition: 0.7s all ease-in;
     position: absolute;
   }
@@ -936,8 +936,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #figma {
-    width: 14vw;
-    height: 14vw;
+    width: 7vw;
+    height: 7vw;
     transition: 0.7s all ease-in;
     position: absolute;
   }
@@ -966,8 +966,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #mongo {
-    width: 6vw;
-    height: 12vw;
+    width: 3vw;
+    height: 6vw;
     transition: 0.7s all ease-in;
     position: absolute;
     margin: 0vh 0 0 0;
@@ -982,8 +982,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #django {
-    width: 12vw;
-    height: 12vw;
+    width: 7vw;
+    height: 7vw;
     transition: 0.7s all ease-in;
     position: absolute;
     margin: 0vh 1vw 0 0;
@@ -998,8 +998,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #aws {
-    width: 13vw;
-    height: 13vw;
+    width: 7vw;
+    height: 7vw;
     transition: 0.7s all ease-in;
     position: absolute;
     margin: 0vh 1vw 0 0;
@@ -1014,8 +1014,8 @@
     transition: 0.5s all ease-in;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #heroku {
-    width: 12vw;
-    height: 12vw;
+    width: 7vw;
+    height: 7vw;
     transition: 0.7s all ease-in;
     position: absolute;
     margin: -0.5vhvh 0vw 0 0;
