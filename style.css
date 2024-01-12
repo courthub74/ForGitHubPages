@@ -616,7 +616,7 @@
     align-items: center;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 5vw;
   }
   * body .container #home_section_id .home_section_class .home_section_content .name_and_description .home_description {
     display: flex;
@@ -628,7 +628,7 @@
     border-radius: 5px;
     background-color: white;
     width: 40vw;
-    padding: 2vw;
+    padding: 1.5vw;
     font-size: 3vw;
     color: #080E2F;
     margin: 0 0 0 0;
@@ -639,7 +639,7 @@
     justify-content: center;
     align-items: center;
     font-family: "Inter", sans-serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: white;
     margin: 2vh 0 0 0;
   }
@@ -683,16 +683,16 @@
     color: white;
     height: 100%;
     width: 80%;
-    margin: 8vh 0 0 10vw;
+    margin: 5vh 0 0 10vw;
     font-size: 2.5vw;
   }
   * body .container #about_section_id .about_section_class .about_section_content #about_page_logo {
-    margin-top: 10vh;
+    margin-top: 3vh;
     width: 20vw;
     height: 20vw;
   }
   * body .container #about_section_id .about_section_class .about_section_content .brand_name_about {
-    margin-top: 10vh;
+    margin-top: 2vh;
     width: 100%;
   }
   * body .container #about_section_id .about_section_class .about_section_content .passion_block {

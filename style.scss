@@ -698,7 +698,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                     align-items: center;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
-                                    font-size: 6vw;
+                                    font-size: 5vw;
                                 }
                                 .home_description {
                                     display: flex;
@@ -712,7 +712,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                     background-color: white;
                                     width: 40vw;
                                     // height: 4vw;
-                                    padding: 2vw;
+                                    padding: 1.5vw;
                                     font-size: 3vw;
                                     color: $darkblue;
                                     margin: 0 0 0 0;
@@ -724,7 +724,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                 justify-content: center;
                                 align-items: center;
                                 font-family: 'Inter', sans-serif;
-                                font-size: 3vw;
+                                font-size: 2.5vw;
                                 color: white;
                                 margin: 2vh 0 0 0;
                             }
@@ -775,16 +775,16 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             color: white;
                             height: 100%;
                             width: 80%;
-                            margin: 8vh 0 0 10vw;
+                            margin: 5vh 0 0 10vw;
                             font-size: 2.5vw;
                             // text-align: center;
                             #about_page_logo {
-                                margin-top: 10vh;
+                                margin-top: 3vh;
                                 width: 20vw;
                                 height: 20vw;
                             }
                             .brand_name_about {
-                                margin-top: 10vh;
+                                margin-top: 2vh;
                                 width: 100%;
                             }
                             .passion_block {
