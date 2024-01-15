@@ -16,6 +16,8 @@ $resumebutton: #507E81;
 $skillsteal: #146166;
 // BOX SHADOW
 $boxshadowcircles: rgba(0, 0, 0, 0.521);
+// Job Descriptions
+$jobdescription: #00C6C3;
 
 // MOBILE VERSIONS
 
@@ -588,7 +590,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                 // EXPERIENCE SECTION
                 #experience_section_id {
                     .experience_section_class {
-                        height: 100vh;
+                        height: 95vh;
                         background-color: $darkblue;
                         .section_title {
                             margin: 5vh 0 0 10vw;
@@ -596,6 +598,185 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                             font-size: 10vw;
                             font-weight: bold;
                             color: white;
+                        }
+                        .experience_section_squares {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5vh;
+                            margin: 7vh 0 0 0;
+                            .experience_box {
+                                width: 80vw;
+                                height: 45vw;
+                                border-radius: 10px;
+                                border: none;
+                                background-color: $portfolios;
+                                box-shadow: 6px 6px 10px black;
+                                display: flex;
+                                // Courdevelops
+                                .courdevelops_logo {
+                                    margin: 4.5vh 0 0 7vw;
+                                    #courdevelops {
+                                        width: 23vw;
+                                        height: 23vw;
+                                    }
+                                } 
+                                .courdevelops_description {
+                                    // margin: 7.5vh 0 0 2.5vw;
+                                    margin: 7.5vh 0 0 7vw;
+                                    display: flex;
+                                    flex-direction: column;
+                                    // transition: 1s all ease-in;
+                                    .main_description {
+                                        transition: .9s all ease-in;
+                                        position: absolute;
+                                        h1 {
+                                            color: white;
+                                            font-size: 5vw;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        p {
+                                            color: $jobdescription;
+                                            font-size: 3.5vw;
+                                        }
+                                    }
+                                    .main_description.dissapear {
+                                        transition: .7s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    .detailed_description {
+                                        margin: -4vh 0 0 0;
+                                        text-align: left;
+                                        opacity: 0;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 1vh;
+                                        transition: .1s all ease-in;
+                                        h1 {
+                                            color: $jobdescription;
+                                            font-size: 3.5vw;
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 0 0 .5vh 0;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3.2vw;
+                                        }
+                                    }
+                                    .detailed_description.show {
+                                        transition: .9s all ease-in;
+                                        opacity: 1;
+                                    }
+                                }
+                                // R1RCM
+                                .r1rcm_logo {
+                                    margin: 7vh 0 0 9vw;
+                                    #r1rcm {
+                                        width: 19vw;
+                                        height: 14vw;
+                                    }
+                                }
+                                .r1rcm_description {
+                                    // margin: 7.5vh 0 0 2.5vw;
+                                    margin: 8vh 0 0 4vw;
+                                    .main_description_r1rcm {
+                                        transition: .9s all ease-in;
+                                        border: none;
+                                        background-color: $portfolios;
+                                        h1 {
+                                            color: white;
+                                            font-size: 5vw;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        p {
+                                            color: $jobdescription;
+                                            font-size: 1em;
+                                            font-size: 3.5vw;
+                                        }
+                                    }
+                                    .main_description_r1rcm.dissapear {
+                                        transition: .7s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    .detailed_description_r1rcm {
+                                        margin: -9vh 0 0 5vw;
+                                        text-align: left;
+                                        opacity: 0;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 1vh;
+                                        transition: .1s all ease-in;
+                                        h1 {
+                                            color: $jobdescription;
+                                            font-size: 3.5vw;
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 0 0 .5vh 0;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3.2vw;
+                                        }
+                                    }
+                                    .detailed_description_r1rcm.show {
+                                        transition: .9s all ease-in;
+                                        opacity: 1;
+                                    }
+                                }
+                                // SLEA
+                                .slea_logo {
+                                    margin: 5vh 0 0 8vw;
+                                    #slea {
+                                        width: 20vw;
+                                        height: 21vw;
+                                    }
+                                }
+                                .slea_description {
+                                    // margin: 7.5vh 0 0 2.5vw;
+                                    margin: 8vh 0 0 7.5vw;
+                                    .main_description_slea {
+                                            transition: .9s all ease-in;
+                                            border: none;
+                                            background-color: $portfolios;
+                                        h1 {
+                                            color: white;
+                                            font-size: 5vw;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        p {
+                                            color: $jobdescription;
+                                            font-size: 3.5vw;
+                                        }
+                                    }
+                                    .main_description_slea.dissapear {
+                                        transition: .7s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    .detailed_description_slea {
+                                        margin: -9vh 0 0 2vw;
+                                        text-align: left;
+                                        opacity: 0;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 1vh;
+                                        transition: .1s all ease-in;
+                                        h1 {
+                                            color: $jobdescription;
+                                            font-size: 3.5vw;
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 0 0 .5vh 0;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3.2vw;
+                                        }
+                                    }
+                                    .detailed_description_slea.show {
+                                        transition: .9s all ease-in;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
