@@ -37,7 +37,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 4vw;
-    margin: 0 0 0vh 1vw;
+    margin: 0 0 0.5vh 1vw;
   }
   * body .container .nav_section .the_navbar .you #job_description {
     color: white;
