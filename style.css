@@ -260,8 +260,9 @@
     margin: 0 1vw 0 0;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
-    margin: 0 0 0 10vw;
-    width: 66vw;
+    margin: 0 0 0 2vw;
+    width: 62vw;
+    height: 3.4vh;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
     width: 65vw;
