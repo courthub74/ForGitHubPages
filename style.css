@@ -296,7 +296,7 @@
     justify-content: center;
     align-items: center;
     margin: 4vh 0 0 5vh;
-    gap: 2vw;
+    gap: 1.5vw;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle {
     display: flex;
